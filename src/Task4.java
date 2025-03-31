@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Average {
+public class Task4 {
     public static void main(String[] args) {
         double num1 = Double.parseDouble(JOptionPane.showInputDialog("Enter first number:"));
         double num2 = Double.parseDouble(JOptionPane.showInputDialog("Enter second number:"));

@@ -14,8 +14,8 @@ public class Task6 {
 
         double ratePerHour2 = Double.parseDouble(ratePerHour);
         double workhrs2 = Double.parseDouble(workhrs);
-        double absences2 = Double.parseDouble(absences);
-        double late2 = Double.parseDouble(late);
+        int absences2 = Integer.parseInt(absences);
+        int late2 = Integer.parseInt(late);
         double gross = ratePerHour2 * workhrs2;
         double totaldeduction = (absences2*Absent) + (Late * late2) + SSS + Philhealth;
         double net = gross - totaldeduction;
